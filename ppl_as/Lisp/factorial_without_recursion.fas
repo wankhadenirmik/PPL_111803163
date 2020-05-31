@@ -1,0 +1,23 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (PRINT "Enter a number to find its factorial: ")-1|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 8E 19 01)
+   ("Enter a number to find its factorial: ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|2 2 (SETQ X (READ))-2|
+   #18Y(00 00 00 00 00 00 00 00 20 01 38 04 31 7F 0F 00 19 01)
+   (|COMMON-LISP-USER|::|X|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|3 3 (SETQ Y 0)-3| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (0. |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|6 10 (DO (# #) (# #) ...)-4|
+   #39Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 1B 0B 9E 0F 02 14 AD 82 02 39 01
+        86 00 AC 8F AC 71 6B 01 6B 01 33 01 38 19 03)
+   (1. |COMMON-LISP-USER|::|X| |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 16 (IF (= X 0) (PRINT 1) ...)-5|
+   #27Y(00 00 00 00 00 00 00 00 20 01 6B 00 8E AC 09 0E 02 14 38 01 31 8E 19 01
+        C6 1B 76)
+   (|COMMON-LISP-USER|::|X| 1. |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

@@ -1,0 +1,38 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (PRINC "Enter number of elements in list: ")-1|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01)
+   ("Enter number of elements in list: ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|2 2 (SETQ X (READ))-2|
+   #18Y(00 00 00 00 00 00 00 00 20 01 38 04 31 7F 0F 00 19 01)
+   (|COMMON-LISP-USER|::|X|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|3 3 (SETQ Y (LIST))-3| #15Y(00 00 00 00 00 00 00 00 20 01 00 0F 00 19 01)
+   (|COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 4 (PRINC "Enter the elements of list: ")-4|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01)
+   ("Enter the elements of list: ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|5 9 (LOOP FOR I ...)-5|
+   #41Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 72 B2 1B 0F 6B 02 38 04 71 7F 7B
+        01 33 02 23 0F 02 85 01 AD AD 91 01 32 6B 00 19 03)
+   (0. |COMMON-LISP-USER|::|X| |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|10 10 (PRINC "Enter the value of n: ")-6|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01)
+   ("Enter the value of n: ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|11 11 (SETQ I (READ))-7|
+   #18Y(00 00 00 00 00 00 00 00 20 01 38 04 31 7F 0F 00 19 01)
+   (|COMMON-LISP-USER|::|I|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 12 (PRINC "nth element of list is : ")-8|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01)
+   ("nth element of list is : ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|13 13 (PRINT (NTH I Y))-9|
+   #22Y(00 00 00 00 00 00 00 00 20 01 6B 00 6B 01 71 A1 38 01 31 8E 19 01)
+   (|COMMON-LISP-USER|::|I| |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
